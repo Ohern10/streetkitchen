@@ -1,0 +1,31 @@
+body{
+   background-color: 2DE1C2;
+   font-size: 14px; 
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   text-align: center;
+   background-color: #00c4cc ;
+    #8b3dff;
+   #9e77f3;
+    #7300e6;
+   #fff; 
+   #00c4cc
+}
+.container{
+background-color: #ffffff;
+width: 80%;
+margin:  0 auto;
+
+}
+h1.title{
+   text-transform:uppercase ;
+   color:3C91E6 ;
+   text-align: left;
+   font-weight: 500;
+   font-size: 40px;
+   padding: 24px;
+}
+h1.title:hover{
+   text-decoration: overline;
+   color:#8b3dff ;
+   transition: 1s ease-in-out;
+}
