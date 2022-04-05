@@ -1,31 +1,56 @@
 body{
-   background-color: 2DE1C2;
    font-size: 14px; 
    font-family: Verdana, Geneva, Tahoma, sans-serif;
    text-align: center;
    background-color: #00c4cc ;
-    #8b3dff;
+   #00c4ccf;
    #9e77f3;
     #7300e6;
    #fff; 
    #00c4cc
 }
 .container{
-background-color: #ffffff;
+background-color: #BFEDC1;
 width: 80%;
 margin:  0 auto;
 
 }
 h1.title{
    text-transform:uppercase ;
-   color:3C91E6 ;
+   color:#3C91E6 ;
    text-align: left;
    font-weight: 500;
    font-size: 40px;
-   padding: 24px;
+   padding: 20px;
 }
 h1.title:hover{
    text-decoration: overline;
    color:#8b3dff ;
    transition: 1s ease-in-out;
+}
+.navbar{
+   background-color: #7300e6;
+   overflow: hidden;
+}
+.navbar ul li{
+   list-style-type: none;
+   float: left;
+   padding: 10px ;
+   border-right: 2px solid #ffffff;
+}
+.navbar ul li a{
+   text-decoration: none;
+   color: #ffffff;
+   text-transform: uppercase;
+   font-size: 24px;
+}
+.navbar ul li :hover{
+   background-color: #C200FB;
+}
+.navbar ul li :hover a{
+   text-decoration: underline;
+   color: white;
+   text-align: center;
+   margin-left: 4px;
+   transition: 5s ease-in-out;
 }
